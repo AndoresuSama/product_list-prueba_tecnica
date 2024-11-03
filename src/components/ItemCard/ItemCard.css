@@ -1,0 +1,29 @@
+.item-card {
+  background-color: white;
+  width: 250px;
+  height: 400px;
+  margin: 10px auto;
+  padding: 5px;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .2);
+  border-radius: 2px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 1.5px;
+}
+
+.item-card__image {
+  background-color: #ebebeb;
+  height: 200px;
+  width: 90%;
+  margin: 2% auto;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 1.5px;
+}
+
+.item-card__info {
+  margin: 15px 5%;
+  p {
+    text-align: left;
+  }
+}

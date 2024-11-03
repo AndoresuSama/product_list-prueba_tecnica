@@ -1,0 +1,26 @@
+.item-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 80%;
+  margin: 20% auto 5%; 
+}
+
+.item-list__message {
+  text-align: center;
+  font-size: 1rem;
+  margin: 5% auto 5% auto;
+}
+
+@media screen and (min-width: 768px) {
+  .item-list {
+    margin: 12% auto 5%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .item-list {
+    margin: 8% auto 5%;
+  }
+}
