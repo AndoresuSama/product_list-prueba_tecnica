@@ -1,10 +1,15 @@
 .item-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
   width: 80%;
-  margin: 20% auto 5%; 
+  margin: 20% auto 5%;
+
+  li {
+    list-style-type: none;
+    margin: 0 2.5% 5% 0;
+  }
 }
 
 .item-list__message {

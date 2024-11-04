@@ -9,6 +9,9 @@
   border-style: solid;
   border-color: rgba(0, 0, 0, 0);
   border-width: 1.5px;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
 }
 
 .item-card__image {

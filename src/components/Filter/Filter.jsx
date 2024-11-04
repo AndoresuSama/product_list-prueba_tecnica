@@ -2,11 +2,12 @@ import './Filter.css';
 import propTypes from 'prop-types';
 
 export const Filter = ({ onChange }) => (
-  <div className="filter">
+  <div className="filter" role="search">
     <input
       className="filter__input"
-      type="text"
-      placeholder="Busca tu producto favorito"
+      id="filter-input"
+      type="search"
+      placeholder="Filtrar por título o categoría"
       onChange={({ target: { value } }) => onChange(value)}
     />
   </div>
@@ -15,3 +16,4 @@ export const Filter = ({ onChange }) => (
 Filter.propTypes = {
   onChange: propTypes.func.isRequired
 };
+

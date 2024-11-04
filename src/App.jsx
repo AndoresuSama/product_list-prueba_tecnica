@@ -2,14 +2,17 @@ import { useState, useEffect, useCallback, useRef } from 'react';
 import './App.css';
 import { Filter } from './components/Filter/Filter.jsx';
 import { ItemList } from './components/ItemList/ItemList.jsx';
+import { DetailedView } from './components/DetailedView/DetailedView.jsx';
 
 function App() {
   const [items, setItems] = useState([]);
   const [page, setPage] = useState(1);
   const [hasMoreData, setHasMoreData] = useState(true);
+  const [detailedItem, setDetailedItem] = useState({});
 
   const isFetchingRef = useRef(false);
   const isFilteredRef = useRef(false);
+  const isDetailRef = useRef(false);
 
   const handleFilterChange = async (value) => {
     setHasMoreData(true);
@@ -28,6 +31,25 @@ function App() {
     const normalizeString = (str) => str.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
     setItems(allItems.filter(item => normalizeString(item.title).toLowerCase().includes(normalizeString(value).toLowerCase()) || normalizeString(item.category).toLowerCase().includes(normalizeString(value).toLowerCase())));
   };
+
+  const handleOnClick = async (item) => {
+    isDetailRef.current = true;
+    const response = (await fetch(`http://localhost:5000/items?id=${item.id}`));
+    const data = await response.json();
+    if(!data.length) {
+      isDetailRef.current = false;
+    }
+    document.body.style.overflow = 'hidden';
+    document.body.style.position = 'fixed';
+    setDetailedItem(data[0]);
+  };
+
+  const handleOnClose = () => {
+    document.body.style.overflow = 'auto';
+    document.body.style.position = 'static';
+    setDetailedItem({});
+    isDetailRef.current = false;
+  }
 
   const fetchData = useCallback(async () => {
     if (isFetchingRef.current || !hasMoreData) return;
@@ -70,9 +92,12 @@ function App() {
   return (
     <>
       <Filter onChange={handleFilterChange}/>
-      <ItemList items={items} />
+      <ItemList items={items} onClick={handleOnClick} />
+      {isDetailRef.current && <DetailedView item={detailedItem} onClose={handleOnClose}/>}
     </>
   );
 }
 
 export default App;
+
+

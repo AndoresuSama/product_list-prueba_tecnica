@@ -4,7 +4,6 @@
       "id": 1,
       "title": "Smartphone Samsung Galaxy",
       "category": "Celulares",
-      "image": "https://via.placeholder.com/150",
       "description": "Celular Samsung Galaxy con pantalla AMOLED y cámara de 108 MP",
       "detail": {
         "info": "Pantalla de 6.5 pulgadas, procesador Exynos",
@@ -16,7 +15,6 @@
       "id": 2,
       "title": "iPhone 12",
       "category": "Celulares",
-      "image": "https://via.placeholder.com/150",
       "description": "iPhone 12 con cámara dual y chip A14 Bionic",
       "detail": {
         "info": "Pantalla de 6.1 pulgadas, 64 GB de almacenamiento",
@@ -28,7 +26,6 @@
       "id": 3,
       "title": "Aspiradora Dyson V11",
       "category": "Electrodomésticos",
-      "image": "https://via.placeholder.com/150",
       "description": "Aspiradora inalámbrica de alta potencia para el hogar",
       "detail": {
         "info": "Ideal para alfombras y pisos duros",
@@ -40,7 +37,6 @@
       "id": 4,
       "title": "Licuadora Oster",
       "category": "Electrodomésticos",
-      "image": "https://via.placeholder.com/150",
       "description": "Licuadora de 10 velocidades con vaso de vidrio",
       "detail": {
         "info": "500 watts de potencia",
@@ -52,7 +48,6 @@
       "id": 5,
       "title": "Lego Star Wars",
       "category": "Juguetes",
-      "image": "https://via.placeholder.com/150",
       "description": "Set de construcción de Lego inspirado en Star Wars",
       "detail": {
         "info": "Contiene 800 piezas",
@@ -64,7 +59,6 @@
       "id": 6,
       "title": "Nintendo Switch",
       "category": "Consolas",
-      "image": "https://via.placeholder.com/150",
       "description": "Consola Nintendo Switch con mandos Joy-Con",
       "detail": {
         "info": "32 GB de almacenamiento interno",
@@ -76,7 +70,6 @@
       "id": 7,
       "title": "Juego de Ollas T-fal",
       "category": "Electrodomésticos",
-      "image": "https://via.placeholder.com/150",
       "description": "Set de ollas antiadherentes para el hogar",
       "detail": {
         "info": "Incluye sartenes y cacerolas",
@@ -88,7 +81,6 @@
       "id": 8,
       "title": "Secador de Pelo Remington",
       "category": "Electrodomésticos",
-      "image": "https://via.placeholder.com/150",
       "description": "Secador de pelo con tecnología iónica para cuidado personal",
       "detail": {
         "info": "3 velocidades y 2 niveles de calor",
@@ -100,7 +92,6 @@
       "id": 9,
       "title": "Xiaomi Mi Band 6",
       "category": "Tecnología",
-      "image": "https://via.placeholder.com/150",
       "description": "Pulsera de actividad con monitor de ritmo cardíaco",
       "detail": {
         "info": "Pantalla AMOLED, resistencia al agua",
@@ -112,7 +103,6 @@
       "id": 10,
       "title": "Televisor LG 55 pulgadas",
       "category": "Electrodomésticos",
-      "image": "https://via.placeholder.com/150",
       "description": "Televisor Smart 4K UHD con inteligencia artificial",
       "detail": {
         "info": "Compatibilidad con Alexa y Google Assistant",
@@ -124,7 +114,6 @@
       "id": 11,
       "title": "Lentes de Realidad Virtual Oculus",
       "category": "Tecnología",
-      "image": "https://via.placeholder.com/150",
       "description": "Gafas de realidad virtual con juegos incluidos",
       "detail": {
         "info": "Sistema VR independiente, sin cables",
@@ -136,7 +125,6 @@
       "id": 12,
       "title": "Reloj Casio Vintage",
       "category": "Accesorios",
-      "image": "https://via.placeholder.com/150",
       "description": "Reloj de pulsera con diseño clásico de Casio",
       "detail": {
         "info": "Resistente al agua",
@@ -148,7 +136,6 @@
       "id": 13,
       "title": "Juguete Educativo LeapFrog",
       "category": "Juguetes",
-      "image": "https://via.placeholder.com/150",
       "description": "Juguete para niños con actividades educativas",
       "detail": {
         "info": "Ideal para aprender letras y números",
@@ -160,7 +147,6 @@
       "id": 14,
       "title": "Lavadora Whirlpool",
       "category": "Electrodomésticos",
-      "image": "https://via.placeholder.com/150",
       "description": "Lavadora de carga frontal de alta eficiencia",
       "detail": {
         "info": "Capacidad de 7 kg",
@@ -172,7 +158,6 @@
       "id": 15,
       "title": "Cafetera Nespresso",
       "category": "Electrodomésticos",
-      "image": "https://via.placeholder.com/150",
       "description": "Cafetera automática de cápsulas",
       "detail": {
         "info": "Sistema de calentamiento rápido",
@@ -184,7 +169,6 @@
       "id": 16,
       "title": "Cortadora de Cabello Philips",
       "category": "Electrodomésticos",
-      "image": "https://via.placeholder.com/150",
       "description": "Máquina para cortar cabello de uso personal",
       "detail": {
         "info": "12 configuraciones de longitud",
@@ -196,7 +180,6 @@
       "id": 17,
       "title": "Tablet Samsung Galaxy Tab",
       "category": "Tecnología",
-      "image": "https://via.placeholder.com/150",
       "description": "Tablet de 10 pulgadas con sistema Android",
       "detail": {
         "info": "32 GB de almacenamiento",
@@ -208,7 +191,6 @@
       "id": 18,
       "title": "Monitor Dell 24 pulgadas",
       "category": "Tecnología",
-      "image": "https://via.placeholder.com/150",
       "description": "Monitor Full HD para trabajo y entretenimiento",
       "detail": {
         "info": "Panel IPS, resolución 1080p",
@@ -220,7 +202,6 @@
       "id": 19,
       "title": "Juguete Lego Ninjago",
       "category": "Juguetes",
-      "image": "https://via.placeholder.com/150",
       "description": "Set de construcción de Lego Ninjago",
       "detail": {
         "info": "Contiene 600 piezas",
@@ -232,7 +213,6 @@
       "id": 20,
       "title": "Plancha a Vapor Rowenta",
       "category": "Electrodomésticos",
-      "image": "https://via.placeholder.com/150",
       "description": "Plancha a vapor de alta eficiencia",
       "detail": {
         "info": "Resistente al sarro, base de acero inoxidable",
@@ -244,7 +224,6 @@
       "id": 21,
       "title": "Smartphone Samsung Galaxy",
       "category": "Celulares",
-      "image": "https://via.placeholder.com/150",
       "description": "Celular Samsung Galaxy con pantalla AMOLED y cámara de 108 MP",
       "detail": {
         "info": "Pantalla de 6.5 pulgadas, procesador Exynos",
@@ -256,7 +235,6 @@
       "id": 22,
       "title": "iPhone 12",
       "category": "Celulares",
-      "image": "https://via.placeholder.com/150",
       "description": "iPhone 12 con cámara dual y chip A14 Bionic",
       "detail": {
         "info": "Pantalla de 6.1 pulgadas, 64 GB de almacenamiento",
@@ -268,7 +246,6 @@
       "id": 23,
       "title": "Aspiradora Dyson V11",
       "category": "Electrodomésticos",
-      "image": "https://via.placeholder.com/150",
       "description": "Aspiradora inalámbrica de alta potencia para el hogar",
       "detail": {
         "info": "Ideal para alfombras y pisos duros",
@@ -280,7 +257,6 @@
       "id": 24,
       "title": "Licuadora Oster",
       "category": "Electrodomésticos",
-      "image": "https://via.placeholder.com/150",
       "description": "Licuadora de 10 velocidades con vaso de vidrio",
       "detail": {
         "info": "500 watts de potencia",
@@ -292,7 +268,6 @@
       "id": 25,
       "title": "Lego Star Wars",
       "category": "Juguetes",
-      "image": "https://via.placeholder.com/150",
       "description": "Set de construcción de Lego inspirado en Star Wars",
       "detail": {
         "info": "Contiene 800 piezas",
@@ -304,7 +279,6 @@
       "id": 26,
       "title": "Nintendo Switch",
       "category": "Consolas",
-      "image": "https://via.placeholder.com/150",
       "description": "Consola Nintendo Switch con mandos Joy-Con",
       "detail": {
         "info": "32 GB de almacenamiento interno",
@@ -316,7 +290,6 @@
       "id": 27,
       "title": "Juego de Ollas T-fal",
       "category": "Electrodomésticos",
-      "image": "https://via.placeholder.com/150",
       "description": "Set de ollas antiadherentes para el hogar",
       "detail": {
         "info": "Incluye sartenes y cacerolas",
@@ -328,7 +301,6 @@
       "id": 28,
       "title": "Secador de Pelo Remington",
       "category": "Electrodomésticos",
-      "image": "https://via.placeholder.com/150",
       "description": "Secador de pelo con tecnología iónica para cuidado personal",
       "detail": {
         "info": "3 velocidades y 2 niveles de calor",
@@ -340,7 +312,6 @@
       "id": 29,
       "title": "Xiaomi Mi Band 6",
       "category": "Tecnología",
-      "image": "https://via.placeholder.com/150",
       "description": "Pulsera de actividad con monitor de ritmo cardíaco",
       "detail": {
         "info": "Pantalla AMOLED, resistencia al agua",
@@ -352,7 +323,6 @@
       "id": 30,
       "title": "Televisor LG 55 pulgadas",
       "category": "Electrodomésticos",
-      "image": "https://via.placeholder.com/150",
       "description": "Televisor Smart 4K UHD con inteligencia artificial",
       "detail": {
         "info": "Compatibilidad con Alexa y Google Assistant",
@@ -364,7 +334,6 @@
       "id": 31,
       "title": "Lentes de Realidad Virtual Oculus",
       "category": "Tecnología",
-      "image": "https://via.placeholder.com/150",
       "description": "Gafas de realidad virtual con juegos incluidos",
       "detail": {
         "info": "Sistema VR independiente, sin cables",
@@ -376,7 +345,6 @@
       "id": 32,
       "title": "Reloj Casio Vintage",
       "category": "Accesorios",
-      "image": "https://via.placeholder.com/150",
       "description": "Reloj de pulsera con diseño clásico de Casio",
       "detail": {
         "info": "Resistente al agua",
@@ -388,7 +356,6 @@
       "id": 33,
       "title": "Juguete Educativo LeapFrog",
       "category": "Juguetes",
-      "image": "https://via.placeholder.com/150",
       "description": "Juguete para niños con actividades educativas",
       "detail": {
         "info": "Ideal para aprender letras y números",
@@ -400,7 +367,6 @@
       "id": 34,
       "title": "Lavadora Whirlpool",
       "category": "Electrodomésticos",
-      "image": "https://via.placeholder.com/150",
       "description": "Lavadora de carga frontal de alta eficiencia",
       "detail": {
         "info": "Capacidad de 7 kg",
@@ -412,7 +378,6 @@
       "id": 35,
       "title": "Cafetera Nespresso",
       "category": "Electrodomésticos",
-      "image": "https://via.placeholder.com/150",
       "description": "Cafetera automática de cápsulas",
       "detail": {
         "info": "Sistema de calentamiento rápido",
@@ -424,7 +389,6 @@
       "id": 36,
       "title": "Cortadora de Cabello Philips",
       "category": "Electrodomésticos",
-      "image": "https://via.placeholder.com/150",
       "description": "Máquina para cortar cabello de uso personal",
       "detail": {
         "info": "12 configuraciones de longitud",
@@ -436,7 +400,6 @@
       "id": 37,
       "title": "Tablet Samsung Galaxy Tab",
       "category": "Tecnología",
-      "image": "https://via.placeholder.com/150",
       "description": "Tablet de 10 pulgadas con sistema Android",
       "detail": {
         "info": "32 GB de almacenamiento",
@@ -448,7 +411,6 @@
       "id": 38,
       "title": "Monitor Dell 24 pulgadas",
       "category": "Tecnología",
-      "image": "https://via.placeholder.com/150",
       "description": "Monitor Full HD para trabajo y entretenimiento",
       "detail": {
         "info": "Panel IPS, resolución 1080p",
@@ -460,7 +422,6 @@
       "id": 39,
       "title": "Juguete Lego Ninjago",
       "category": "Juguetes",
-      "image": "https://via.placeholder.com/150",
       "description": "Set de construcción de Lego Ninjago",
       "detail": {
         "info": "Contiene 600 piezas",
@@ -472,7 +433,6 @@
       "id": 40,
       "title": "Plancha a Vapor Rowenta",
       "category": "Electrodomésticos",
-      "image": "https://via.placeholder.com/150",
       "description": "Plancha a vapor de alta eficiencia",
       "detail": {
         "info": "Resistente al sarro, base de acero inoxidable",
