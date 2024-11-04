@@ -23,7 +23,14 @@
 
 .item-card__info {
   margin: 15px 5%;
+
+  :nth-child(2) {
+    font-size: 0.7rem;
+    font-weight: bold;
+  }
+
   p {
     text-align: left;
+    margin-top: 5px;
   }
 }

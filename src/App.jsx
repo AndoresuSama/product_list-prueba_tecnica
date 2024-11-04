@@ -9,6 +9,25 @@ function App() {
   const [hasMoreData, setHasMoreData] = useState(true);
 
   const isFetchingRef = useRef(false);
+  const isFilteredRef = useRef(false);
+
+  const handleFilterChange = async (value) => {
+    setHasMoreData(true);
+    isFilteredRef.current = true;
+
+    if (!value) {
+      isFilteredRef.current = false;
+      setPage(1);
+      setItems([]);
+      fetchData();
+      return;
+    }
+
+    const response = (await fetch(`http://localhost:5000/items?`));
+    const allItems = await response.json();
+    const normalizeString = (str) => str.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+    setItems(allItems.filter(item => normalizeString(item.title).toLowerCase().includes(normalizeString(value).toLowerCase()) || normalizeString(item.category).toLowerCase().includes(normalizeString(value).toLowerCase())));
+  };
 
   const fetchData = useCallback(async () => {
     if (isFetchingRef.current || !hasMoreData) return;
@@ -34,7 +53,7 @@ function App() {
   }, [page, hasMoreData]);
 
   const handleScroll = useCallback(() => {
-    if (window.innerHeight + document.documentElement.scrollTop >= document.documentElement.offsetHeight - 5 && !isFetchingRef.current) {
+    if (window.innerHeight + document.documentElement.scrollTop >= document.documentElement.offsetHeight - 5 && !isFetchingRef.current && !isFilteredRef.current) {
       setPage((prevPage) => prevPage + 1);
     }
   }, []);
@@ -50,7 +69,7 @@ function App() {
 
   return (
     <>
-      <Filter />
+      <Filter onChange={handleFilterChange}/>
       <ItemList items={items} />
     </>
   );
