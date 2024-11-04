@@ -4,7 +4,7 @@ Este proyecto es una prueba técnica desarrollada con **React** y **Vite**. La a
 
 ## Requisitos Previos
 
-- **Node.js** (versión 14 o superior)
+- **Node.js** (versión 22.11 utilizada para este desarrollo)
 - **npm** o **yarn**
 
 ## Instalación
